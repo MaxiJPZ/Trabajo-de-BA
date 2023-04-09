@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+ <title>Maximiliano Palacios</title>
+</head>
+
+<h1>Hola mundo </h1>
+<h2>Hola mundo</h2>
+<h3>Hola mundo</h3>
+<h4>Hola mundo</h4>
+<h5>Hola mundo</h5>
+<h6>Hola mundo</h6>
+
+<body>
+    
+<p>hola soy maxi <br> tengo 20 años</p>
+<em>Letra Cursiva</em>
+<b>Letra Negrita</b>
+<i>Cursiva</i>
+<strong>Negrita</strong>
+<div>estructurar el documento en secciones</div>
+<span>estilos de textos</span> 
+<ol>lista de productos <li>pan</li><li>almendras</li></ol>
+
+
+<p>Hola soy un parrafo que tal como estas todo bien</p>
+
+<img src="https://wwwhatsnew.com/wp-content/uploads/2022/10/Estos-son-los-10-mejores-sistemas-para-pasar-de-texto-a-imagen.jpg" alt="Paisaje">
+
+<br>
+<link rel="stylesheet" href="">
+<a href="https://google.com.ar">Soy un link de google</a>
+
+</body>
+</html>
