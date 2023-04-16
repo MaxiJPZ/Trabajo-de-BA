@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Maximiliano Palacios</title>
+</head>
+<body>
+      <form action="envio.php" method="post" target="_blank"></form>
+      <form>
+         <label for="usuario">Usuario:</label></strong>
+         <input type="text" id="usuario" size="tamaño"
+         name="nombre" placeholder="Escribe tu usuario" maxlength="10" minlength="4" required>
+         <small>*</small>
+         <br>
+         <br>
+         <label for="contraseña">Contraseña:</label>
+         <input type="password" id="password" size="tamaño"
+         name="password" placeholder="escribe tu contraseña">
+         <small>*</small>
+         <br>
+         <input type="checkbox" name="condiciones" id="condiciones"> Estas de acuerdo con estas condiciones
+         <br>
+         <input type="radio" name="lenguajes" value="html"> Html
+         <input type="radio" name="lenguajes" value="ccs"> CSS
+         <input type="radio" name="lenguajes" value="Javascrip"> Javascrip
+         <input type="radio" name="lenguajes" value="python"> Python
+         <br>
+         <label for="progrmando">Años Programando:</label>
+         <input type="number" id="usuario" size="tamaño"
+         name="nombre" placeholder="Años Programando">
+        <br>
+        <br>
+        <label for="archivo">Subir tu Curriculum:</label>
+        <input type="file" id="archivo" size="tamaño"
+         name="archivo"value="file">
+        <br>
+        <br>
+        <label for="opinion">Tu Opinión:</label>
+        <textarea type="file" id="opinion" size="tamaño"
+         name="opinion" placeholder="Danos tu opinión" rows="2" cols="10"></textarea>
+         <small>(Opcional)</small>
+        <br>
+        <br>
+        <label for="pais"> Selecciona tu Pais:</label>
+        <select name="pais" id="pais">
+          <optgroup label="America">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil" selected="select">Brasil</option>
+            <option value="Chile" selected="select">Chile</option>
+          </optgroup>
+          <optgroup label="Europa">
+            <option value="Francia">Francia</option>
+            <option value="España">España</option>
+            <option value="Alemania">Alemania</option>
+          </optgroup>                 
+          <select>
+            <br>
+            <br>
+            <label for="Fecha">Fecha de Nacimiento</label>
+            <input type="date" id="fecha" name="fecha" max="1990-12-31" required>
+            <small>*</small>
+          <br>
+          <br>
+          <input type="submit" value="Enviar tus datos">
+          <input type="reset" value="Resetear tus datos">
+     </form>
+</body>
+</html>
